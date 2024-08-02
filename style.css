@@ -1,0 +1,190 @@
+/*Lignes de codes sur la gestion de l'élément "body"*/
+
+
+body{
+	background-color:black ;
+	color: white;
+	border-style: solid;
+	border-color: yellow;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 20px;
+	height: 1400px;
+	width: 1900px;
+}
+
+/*Lignes de codes sur la gestion du tableau*/
+
+table{
+	border-collapse:collapse ;
+}
+
+td{ 
+	border-style: solid;
+	border-color: white;
+	background-color: grey;
+}
+th{ 
+	border-style: solid;
+	border-color: white;
+	background-color: green;
+}
+
+
+/*Lignes de codes sur la gestion des trois zones*/
+
+.zone1{
+	background-color: teal;
+	border-color: red;
+	border-style: solid;
+	border-radius: 20px;
+	color: white;
+	padding: 15px;
+	margin: 20px;
+	text-align:center ;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+.zone2{
+	background-color: skyblue;
+	border-color: red;
+	border-style: solid;
+	border-radius: 20px;
+	color: white;
+	padding: 15px;
+	margin: 20px;
+	text-align:center ;
+}
+
+
+.zone3{
+	background-color: teal;
+	border-color: red;
+	border-style: solid;
+	border-radius: 20px;
+	color: white;
+	padding: 15px;
+	margin: 20px;
+	text-align:center ;
+	
+}
+
+/*Lignes de codes sur la gestion des images sur la page web CONVOYEUR (Accueil.html)*/
+
+.logofim{
+	width: 5%;
+	height: 5%;
+	float: left ;
+}
+
+.logosiemens{
+	width: 5%;
+	height: 5%;
+	float:right;
+
+}
+
+.convoyeur{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/*Lignes de codes sur la gestion de la sous-zone2 des commandes machines*/
+
+.cmdMachine{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+/*Lignes de codes sur la gestion des boutons marche et arret*/
+
+.btnMarcheConvoyeur{
+
+	background-color: green;
+	border: double;
+	color: white;
+	height: 100px;
+	width: 350px;
+	padding: 5px;
+	margin: 10px;
+	font-size: 25px;
+}
+.btnArretConvoyeur{
+
+	background-color: red;
+	border: double;
+	color: white;
+	height: 100px;
+	width: 350px;
+	padding: 5px;
+	margin: 10px;
+	font-size: 25px;
+
+}
+
+/*Lignes de codes sur la gestion des liens vers d'autres pages web*/
+
+.plans{
+	background-color: yellow;
+	border: solid;
+	color: black;
+	width: 150PX;
+	height: 50PX;
+	padding: 20px;
+	box-shadow: 4px 5px 6px black;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+.ytb{
+	background-color: yellow;
+	border: solid;
+	color: black;
+	width: 150PX;
+	height: 50PX;
+	padding: 20px;
+	box-shadow: 4px 5px 6px black;
+	font-weight: bold;
+	font-size: 25px;
+	
+}
+.multimedia{
+	background-color: yellow;
+	border: solid;
+	color: black;
+	width: 150PX;
+	height: 50PX;
+	padding: 20px;
+	box-shadow: 4px 5px 6px black;
+	font-weight: bold;
+	font-size: 25px;
+}
+.api{
+	background-color: yellow;
+	border: solid;
+	color: black;
+	width: 150PX;
+	height: 50PX;
+	padding: 20px;
+	box-shadow: 4px 5px 6px black;
+	font-weight: bold;
+	font-size: 25px;
+}
+/*Lignes de codes qui permettent d'aligner de facon ordonner les liens sur un axe*/
+
+.orga{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/*Lignes de codes qui permettent de supprimer le trait sous les liens internet*/
+
+a{
+	text-decoration: none;
+}

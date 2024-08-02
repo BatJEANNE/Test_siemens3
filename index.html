@@ -1,0 +1,58 @@
+
+<!-- AWP_In_Variable Name='"DB1".marcheconv'-->
+<!-- AWP_In_Variable Name='"DB1".conv'-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>CONVOYEUR</title>
+	<!--ci-dessus le nom de l’onglet de la page web-->
+</head>
+<body>
+	<!--ci-dessous la zone 1 de la page web ACCUEIL-->
+
+	<div class="zone1">
+		<img class="logofim" src="logofim.jpg" >
+		<h1>HMI COMMANDE SYSTEME </h1>
+		<img class="logosiemens" src="logosiemens.jfif">
+	</div>
+
+	<!--ci-dessous la zone 2 de la page web ACCUEIL-->
+
+	<div class="zone2">
+			<h1>PILOTAGE DU SYSTEME</h1>
+			<img class="convoyeur" src="convoyeur.png">
+			<p>Boutons de commande qui permettent la gestion du moteur</p>
+				<!--ci-dessous la sous-zone 2 de la commande machine-->
+		<div class="cmdMachine">
+			<form>
+				<input type="submit" value="MARCHE CONVOYEUR" class="btnMarcheConvoyeur">
+				<input type="hidden" name='"DB1".marcheconv' value="1">
+			</form>
+			<form>
+				<input type="submit" value="ARRET CONVOYEUR" class="btnArretConvoyeur" >
+				<input type="hidden" name='"DB1".marcheconv' value="0">
+			</form>
+			</div>
+	</div>
+
+	<!--ci-dessous la zone 3 de la page web ACCUEIL-->
+
+	<div class="zone3">
+		<h1>LECTURE DES PAGES HMI</h1>
+		<!--ci-dessous la sous-zone 3 de l'organisation des liens-->
+			<div class="orga">
+				<p class="plans"><a href="PlanElec.html" target="blank">Schémas</a></p>
+				<p class=ytb><a href="https://www.youtube.com/" target="blank">YOUTUBE</a> </p>
+				<p class="multimedia"><a href="SonVideo.html" target="blank">Son et Vidéo</a></p>
+				<p class="api" > <a href="InfoApi.html" target="blank">Variable API</a></p>
+			</div>
+	</div>
+
+
+
+</body>
+</html>
